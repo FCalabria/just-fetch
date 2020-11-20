@@ -1,5 +1,5 @@
 {
-  "name": "simply-fetch",
+  "name": "just-fetch",
   "version": "1.0.0",
   "description": "JS fetch made easier",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FCalabria/simply-fetch.git"
+    "url": "git+https://github.com/FCalabria/just-fetch.git"
   },
   "keywords": [
     "fetch",
@@ -23,9 +23,9 @@
   "author": "Paqui Calabria",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/FCalabria/simply-fetch/issues"
+    "url": "https://github.com/FCalabria/just-fetch/issues"
   },
-  "homepage": "https://github.com/FCalabria/simply-fetch#readme",
+  "homepage": "https://github.com/FCalabria/just-fetch#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",

@@ -1,4 +1,4 @@
-# Simply fetch
+# Just fetch
 
 Are you tired of writting `result.json()`?
 
@@ -11,7 +11,7 @@ This is your package.
 ## How to use it
 
 ```
-import f from 'simplyFetch'
+import f from 'justFetch'
 
 f.get(url)
 .then(response => { // or use await, I don't care
