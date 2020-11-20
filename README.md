@@ -26,10 +26,15 @@ f.get(url)
 It supports the main HTTP methods:
 
 `f.get(resource: string, init?: {})` Same as the standard fetch syntax
+
 `f.head(resource: string, init?: {})` Same as the standard fetch syntax, but `method: 'HEAD'` is already set
+
 `f.delete(resource: string, init?: {})` Same as the standard fetch syntax, but `method: 'DELETE'` is already set
+
 `f.options(resource: string, init?: {})` You get the idea, right?
+
 `f.post(resource: string, data: {}, init?: {})` Data will be stringified and passed as the post body. It adds `'Content-Type': 'application/json'` by default in the headers, but it can be overriden by the `init` param
+
 `f.put(resource: string, data: {}, init?: {})` Same considerations as with `post`
 
 ## Contributing
