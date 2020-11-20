@@ -1,0 +1,34 @@
+{
+  "name": "simply-fetch",
+  "version": "1.0.0",
+  "description": "JS fetch made easier",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -o dist/index.js --presets minify",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FCalabria/simply-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "ajax",
+    "http",
+    "promise",
+    "request",
+    "xhr",
+    "https"
+  ],
+  "author": "Paqui Calabria",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/FCalabria/simply-fetch/issues"
+  },
+  "homepage": "https://github.com/FCalabria/simply-fetch#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "babel-preset-minify": "^0.5.1"
+  }
+}
