@@ -16,7 +16,7 @@ export default [
 		plugins: [
 			resolve(), // so Rollup can find `ms`
 			commonjs(), // so Rollup can convert `ms` to an ES module
-            babel({ babelHelpers: 'bundled' }),
+            babel({ babelHelpers: 'runtime', plugins: ['@babel/plugin-transform-runtime'] }),
             terser()
 		]
 	},
